@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>App do Angelo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="music">
+        <h4 id="titulo-da-playlist">Player de Música do Angelo </h4>
+        <div id="divcapa">
+            <img id="capa" src="imagens/copo.jpeg"></img>
+        </div>
+        <audio id="audio" src="songs/Lapada Dela.mp3"></audio>
+        <!-- <img src="/imagens/images.webp"><img>  -->
+        <div id="abaixo-capa">
+            <div id="info-musica">
+                <div id="nome-da-musica">Nome da musica </div>
+                <div id="nome-da-banda" class="cor-leve">Nome da banda </div>
+            </div>
+            <button id="like" class="botton cor-leve"><i class="bi bi-heart"></i> </button>
+        </div>
+        <div id="contem-progesso">
+            <div id="barra-de-progresso">
+                <div id="progresso-atual"></div>    
+            </div>
+            <div id="time-box" class="cor-leve">
+                <div id="song-time"> 0:00</div>
+                <div id="total-time">0:00</div>
+            </div>
+        </div>
+        <div id="botoes">
+            <button id="shuffle" class="button"> <i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button button-navigate "> <i class="bi bi-skip-start"></i></button>
+            <button id="play" class="button button-biggest"><i class="bi bi-play-circle"></i></button>
+            <button id="next" class="button button-navigate"> <i class="bi bi-skip-end"></i></button>
+            <button id="repeat" class="button"> <i class="bi bi-arrow-repeat"></i></button>
+            <!--<img src="imagens/baixados.webp"><img> --> 
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

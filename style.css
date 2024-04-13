@@ -1,0 +1,127 @@
+/*div{
+    background-color:}
+*/
+
+body{ background-image:linear-gradient(
+    rgb(169, 161, 241),
+    rgb(29, 25, 81)
+    ) ;
+    max-height: 100%;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding: 0em;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+#abaixo-capa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 0 1em 0;
+
+}
+
+#botoes {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0   0   0   0 ;
+}
+
+.button {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.button-navigate {font-size: 3em;}
+
+.button-biggest { font-size: 4em;}
+
+#divcapa {
+    width: 320px;
+    height: 340px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+#capa {
+    width: inherit;
+    
+
+}
+
+.music {
+    background-color:}
+
+#titulo-da-playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0em 1em 0em; 
+}
+
+#nome-da-musica{ 
+    font-size: 1.5em;
+    font-weight: bolder;  
+}
+
+#nome-da-banda {     
+    font-size: ;
+    font-weight: ;    
+}
+
+#like { 
+    font-size: 1.7em;}
+
+.cor-leve{ color: rgb(139, 153, 156);}
+
+
+#barra-de-progresso {
+    background-color: rgb(139, 153, 156) ;
+    height: 3px;
+    width: 100%; 
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+#progresso-atual {
+    --progresso: 40%;
+    background-color: white;
+    height: inherit;
+    width: var(--progresso);
+    border-radius: inherit;
+    
+}
+
+#contem-progesso {
+    padding-bottom: 1em;
+}
+
+
+.button-active {
+    color: rgb(84, 239, 84)
+}
+
+#time-box {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em;  
+
+}
